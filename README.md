@@ -4,21 +4,25 @@ Questa immagine mostra cosa succede nel terminale quando si va a creare un nuovo
 ![image](https://user-images.githubusercontent.com/116791499/236140188-f70ebbf9-1bab-4595-a2c2-effa319e7c6a.png)
 __________________________________________________________________________________________________
 
-Ecco l'estensione da cercare su Visual Studio Code per trovare i comandi da aggiungere per includere la libreria sqlite-net-pcl
+Qui troviamo l'estensione da cercare su Visual Studio Code per trovare i comandi da aggiungere per includere la libreria sqlite-net-pcl
 
 ![image](https://user-images.githubusercontent.com/116791499/236141827-0368fb33-3d6b-414f-acba-8a4cefb9d43e.png)
 __________________________________________________________________________________________________
 
-Qui sotto troviamo il link con collegameto al download per scaricare il diagramma relazionale del db chinook.db
+#### Qui invece troviamo il link con collegameto al download per scaricare il diagramma relazionale del db chinook.db
 
 https://www.sqlitetutorial.net/sqlite-sample-database/#:~:text=the%20following%20link.-,Download%20SQLite%20sample%20database,-In%20case%20you
+
+### Per trovare la pagina web, dove si trova chinook.db bisogna cercare questo:
+
+![image](https://user-images.githubusercontent.com/116791499/236145321-d25ced9c-adf2-437e-9f2f-451053d9417b.png)
 
 using SQLite;
 __________________________________________________________________________________________________
 
 ## il codice C# necessario per visualizzare il codice  chinook.db:
 
-Console.WriteLine("Hello World");
+Console.WriteLine("Hello World"); 
 
 SQLiteConnection cnl = new SQLiteConnection("chinook.db");
 
