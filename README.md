@@ -1,4 +1,9 @@
 # FirstDB
+
+Per prima cosa dobbiamo creare una una cartella nominandola in questo modo:
+##### cognome.nome.4h.firstdb (che in questo caso è il nome del progetto)
+![image](https://user-images.githubusercontent.com/116791499/236146737-21c43785-a7f9-4943-a67b-0a5d2698cfd1.png)
+
 Questa immagine mostra cosa succede nel terminale quando si va a creare un nuovo progetto su Visual Studio utilizzando Dotnet new console
 
 ![image](https://user-images.githubusercontent.com/116791499/236140188-f70ebbf9-1bab-4595-a2c2-effa319e7c6a.png)
